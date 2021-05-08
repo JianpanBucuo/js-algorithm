@@ -60,12 +60,13 @@ console.log(
 )
 reverseList(a)
 
-const reverse = (head) => {
-    let p1 = null
-    while(head) {
-        const temp = head.next
-        head.next = p1
-        p1 = head
-        head = temp
-    }
-}
+// const reverse = (head) => {
+//     let p1 = null
+//     while(head) {
+//         const temp = head.next
+//         head.next = p1
+//         p1 = head
+//         head = temp
+//     }
+// }
+
