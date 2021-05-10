@@ -35,7 +35,6 @@ const bfs = (x) => {
             if(bfsVisited.has(c)) return
             queue.push(c)
         })
-     
     }
 }
 bfs(2)
